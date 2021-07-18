@@ -24,5 +24,10 @@ public class GitController {
 	public String save(@RequestBody String value) {
 		return value;
 	}
+	
+	@GetMapping("/search")
+	public String search(String item){
+		return item;
+	}
 
 }
