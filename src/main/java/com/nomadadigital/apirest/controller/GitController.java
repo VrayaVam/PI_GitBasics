@@ -25,7 +25,7 @@ public class GitController {
 		return value;
 	}
 	
-	@GetMapping("/search")
+	@GetMapping("/searching")
 	public String search(String item){
 		return item;
 	}
